@@ -13,7 +13,7 @@ public:
 	ElemT* components;
 
 	Vector(int inputsize) :
-		components(new ElemT[(inputsize + 1) * sizeof(ElemT)]),
+		components(new ElemT[inputsize]),
 		size(inputsize)
 	{}
 
